@@ -1,0 +1,113 @@
+<style>h1 {
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+i {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.abc h1.big {
+    position: absolute;
+
+    top: auto;
+    font-size: 65px;
+    right: 43%;
+    text-align: center;
+    color: rgba(205, 196, 196, 0.2);
+    z-index: -1;
+}
+
+.abc h1.main {
+    position: absolute;
+    top: auto;
+    font-size: 80px;
+    text-align: center;
+    right: 44%;
+    color: rgba(205, 196, 196, 0.2);
+    z-index: -1;
+}
+
+p,
+a,
+address {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.resume {
+    background-color: rgba(205, 196, 196, 0.2);
+    box-shadow: 2px 5px rgb(186, 184, 184);
+    box-shadow: 10px 10px 3px rgb(161, 152, 152);
+}
+
+.resume:hover {
+    background-color: orangered;
+    color: white;
+}
+/* .service:hover{
+    background-color: orangered;
+    color: white;
+} */
+
+.btn {
+    text-align: center;
+    font-size: 30px;
+    border-radius: 25px;
+
+}
+
+.over {
+    position: relative;
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.over:hover .image {
+    opacity: 0.3;
+}
+
+.over:hover .overlay {
+    opacity: 1;
+}
+
+.overlay1 {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    height: 100%;
+    opacity: 0.9;
+}
+
+</style>
